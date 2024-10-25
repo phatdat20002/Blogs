@@ -1,0 +1,203 @@
+
+/* Additional CSS for dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.btn-noactive{
+    background-color: #e3e9ef !important;
+    color: #ffffff;
+}
+.dropdown-menu li {
+    padding: 8px 16px;
+}
+
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background-color: #ddd;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.carousel-caption h5 {
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 0;
+}
+.carousel-caption p {
+font-size: 1.2rem;
+}
+#footer {
+background-color: #f2f2f2; /* Background color for the footer */
+padding: 20px 0; /* Padding around the footer content */
+}
+
+#footer .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1400px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Centers the content horizontally */
+}
+#footer .column {
+    flex: 1 1 22%; 
+    margin: 24px 10px; 
+    box-sizing: border-box;
+    text-align: left; 
+    font-size: 18px;
+    
+}
+
+#footer .column h2 {
+    font-size: 18px; /* Adjust heading font size */
+    color: #333; /* Heading color */
+}
+
+#footer .column p {
+    font-size: 18px; /* Adjust paragraph font size */
+    line-height: 1.6; /* Adjust line height */
+    color: #666; /* Paragraph text color */
+}
+
+#footer .icons {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#footer .icons a {
+    text-decoration: none;
+    color: #333; /* Social icon color */
+}
+
+#footer .subscribe-form {
+    margin-top: 20px; /* Adjust spacing above the subscribe form */
+}
+
+#footer .subscribe-form input.email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Input border color */
+}
+
+#footer .subscribe-form input[type="button"] {
+    width: 100%;
+    background-color: #333; /* Subscribe button background color */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#footer .subscribe-form input[type="button"]:hover {
+    background-color: #555; /* Subscribe button hover background color */
+}
+
+#footer #msg {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px; /* Adjust spacing above the message */
+}
+
+#footer .copyright {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing above the copyright text */
+    font-size: 12px; /* Adjust copyright text font size */
+    color: #999; /* Copyright text color */
+}/* Reset default browser styles */
+/* Main content styles */
+.s-content__form {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dedddd93;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-field textarea {
+    min-height: 150px;
+}
+
+.submit {
+    background-color: #32adb8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #32adb8;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .inner {
+        padding: 0 10px;
+    }
+
+    .s-content__form {
+        padding: 15px;
+    }
+
+    .submit {
+        padding: 10px 15px;
+    }
+}
+
